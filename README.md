@@ -1,4 +1,7 @@
+:rocket:            :construction: :rocket: :construction_worker_man:
+
 # Introduction
+
 This repository have three java apps in three sub packages. Which are java grep app, JDBC app and Twitter CLI app. Understanding and knowledge of previous apps is required for completion in linear order. 
 
 ## Java Grep app
@@ -52,19 +55,98 @@ In this application we have two scripts **JavaGrep** and **JavaGrepImp**
   ### Libraries
 
   1. signpost commonHttp4
+
   2. JUnit
+
   3. Jakson databined
+
   4. Spring-Boot-Starter-Web
+
   5. Commons-Dbcp2
+
   6. Postgresql
+
   7. Spring-boot-maven-plugin
 
-* 
+     
 
-* :rocket:
-:tada:
-:camel:
-:sleepy:
+  ## Twitter CLI App
+
+  This java application makes user capable of basic twitter features including SHOW,DELETE and POST tweets through command line. A twitter developer account is required for this purpose.
+
+  ### Developer Account and Initial Setup
+
+  To obtain a developer twitter account a working phone number along with regular user twiter account is required. It usually take about a day for application process to complete for twitter developer account.
+
+  After account is created and authorized four value are copied to local machine and made as environment variables these values are
+
+  1. consumerKey
+
+  2. consumerSecret
+
+  3. accessToken
+
+  4. tokenSecret
+
+     These are secret values and should not be shared publicly on any platform. If by mistake these values get added on GitHub in a public repository, might result in GitHub account temporary suspension. 
+
+     ### Usage
+
+  
+
+  
+
+  
+
+  
+
+  ### Design and Implementation
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  ### Test
+
+  
+
+  
+
+  
+
+  ### Spring Framework
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  ### Enhancements and Issues
+
+  1. Hashtag searching can be added
+  2. support for links images and videos upload can be added
+  3. A prompt for user can be added if access tokens are not formatted or invalid.
+
+  :rocket:
+  :tada:
+  :camel:
+  :sleepy:
 
 :confused:
 
+:construction:
+
+:construction_worker:
