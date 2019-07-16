@@ -1,5 +1,7 @@
 :rocket:            :construction: :rocket: :construction_worker_man:
 
+# Under Construction
+
 # Introduction
 
 This repository have three java apps in three sub packages. Which are java grep app, JDBC app and Twitter CLI app. Understanding and knowledge of previous apps is required for completion in linear order. 
