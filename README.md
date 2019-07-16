@@ -94,7 +94,11 @@ In this application we have two scripts **JavaGrep** and **JavaGrepImp**
 
      ### Usage
 
+  `post "twitter content"  "coordinate as lattitude:longituted"`
   
+  `delete  "tweet-id,tweet-id" you can give multiple tweet id`
+  
+  `show  "tweet-id"`
 
   
 
