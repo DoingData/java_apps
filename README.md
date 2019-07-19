@@ -37,7 +37,7 @@ In this application we have two scripts **JavaGrep** and **JavaGrepImp**
   Java DataBase Connectivity  app is designed to simulate a java connectivity to Relational database management system. It is Implemented using CRUD (Create,Read,Update,Delete) methodology using DAO's , DTO's and SQL's DDL,DML,DCL and TCL.
 
   ### Usage
-
+this app is used to connect to RDBMS from java.
   
 
   
@@ -131,7 +131,10 @@ In this application we have two scripts **JavaGrep** and **JavaGrepImp**
   ### Spring Framework
 
   
+its a very power ful tool for java
 
+### Spring boot
+this is also very power full methodology to write code in java.
   
 
   
