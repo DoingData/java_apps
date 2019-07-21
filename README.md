@@ -101,6 +101,8 @@ this app is used to connect to RDBMS from java.
   `delete  "tweet-id,tweet-id" you can give multiple tweet id`
   
   `show  "tweet-id"`
+  
+  have to add more content into it
 
   
 
