@@ -18,6 +18,8 @@ Three arguments are provided to the application.
 2. An absolute path to directory of operation
 3. An output file
    `regex_pattern absolute_path output_file`
+   as an exmaple `.*data.* /home/usr/centos/Downloads/ /tmp/grep.out`
+   will search word data in files of Downloads and its subdirectories files and writes the matching lines to grep.out file.
 
 ### Design and Implementation
 In this application we have two scripts **JavaGrep** and **JavaGrepImp**
