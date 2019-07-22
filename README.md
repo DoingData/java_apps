@@ -170,35 +170,16 @@ hplussport consists of five tables
   variables and get accessed from there.
   
 
-  
-
-  
-
-  
-
-  
-
-  ### Test
-
-  
-
-  
-
-  
+  <!-- this is start of comment ### Test 
 
   ### Spring Framework
-
   
 its a very power ful tool for java
 
 ### Spring boot
 this is also very power full methodology to write code in java.
-  
-
-  
-
-  
-
+ this is end of comment
+-->
   
 
   ### Enhancements and Issues
