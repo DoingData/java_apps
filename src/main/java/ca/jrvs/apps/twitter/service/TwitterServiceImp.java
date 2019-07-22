@@ -1,6 +1,6 @@
 package ca.jrvs.apps.twitter.Service;
 
-import ca.jrvs.apps.twitter.dao.CrdRepo;
+import ca.jrvs.apps.twitter.dao.CrdRepository;
 import ca.jrvs.apps.twitter.dto.Coordinates;
 import ca.jrvs.apps.twitter.dto.Tweet;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -19,10 +19,10 @@ public class TwitterServiceImp implements TwitterService {
     private static final double MIN_LAT = -90.0;
     private static final double MAX_LONGI = 180.0;
     private static final double MIN_LONGI = -180.0;
-    private CrdRepo dao;
+    private CrdRepository dao;
 
     @Autowired
-    public TwitterServiceImp(CrdRepo dao) {
+    public TwitterServiceImp(CrdRepository dao) {
         this.dao = dao;
     }
 

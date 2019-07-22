@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
-public class OrderDAO extends DataAccessObject<Order> {
+public class OrderDao extends DataAccessObject<Order> {
 
 
     private static final String sqlStatement = "SELECT c.first_name, c.last_name, c.email, o.order_id, o.creation_date, " +
@@ -18,7 +18,7 @@ public class OrderDAO extends DataAccessObject<Order> {
             "on o.salesperson_id = s.salesperson_id JOIN order_item ol on ol.order_id = o.order_id JOIN product p " +
             "on ol.product_id = p.product_id where o.order_id = ?";
 
-    public OrderDAO(Connection connection) {
+    public OrderDao(Connection connection) {
         super(connection);
     }
 

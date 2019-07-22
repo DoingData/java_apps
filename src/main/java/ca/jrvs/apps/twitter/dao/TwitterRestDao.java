@@ -17,7 +17,7 @@ import java.nio.charset.StandardCharsets;
 import static ca.jrvs.apps.twitter.example.JsonParser.toObjectFromJson;
 
 @Repository
-public class TwitterResDao implements CrdRepo<Tweet, String> {
+public class TwitterRestDao implements CrdRepository<Tweet, String> {
 
     public static final String POST_URL = "/1.1/statuses/update.json";
     public static final String SHOW_URL = "/1.1/statuses/show.json";
@@ -32,7 +32,7 @@ public class TwitterResDao implements CrdRepo<Tweet, String> {
     private HttpHelper httpHelper;
 
     @Autowired
-    public TwitterResDao(HttpHelper httpHelper) {
+    public TwitterRestDao(HttpHelper httpHelper) {
         this.httpHelper = httpHelper;
     }
 

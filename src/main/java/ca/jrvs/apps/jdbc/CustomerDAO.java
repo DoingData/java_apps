@@ -118,7 +118,7 @@ public class CustomerDAO extends DataAccessObject<Customer> {
 
     }
 }
-
+/** Code got pasted twice
     public CustomerDAO(Connection connection) {
         super(connection);
     }
@@ -218,3 +218,4 @@ public class CustomerDAO extends DataAccessObject<Customer> {
 
     }
 }
+ */

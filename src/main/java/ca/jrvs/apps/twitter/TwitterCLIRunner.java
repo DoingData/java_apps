@@ -1,17 +1,17 @@
 package ca.jrvs.apps.twitter;
 
 import ca.jrvs.apps.twitter.Service.TwitterService;
-import ca.jrvs.apps.twitter.dao.CrdRepo;
+import ca.jrvs.apps.twitter.dao.CrdRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class TwitterCLIRunner {
 
-    public static CrdRepo dao;
+    public static CrdRepository dao;
     private TwitterService service;
 
-    public TwitterCLIRunner(CrdRepo dao) {
+    public TwitterCLIRunner(CrdRepository dao) {
         this.dao = dao;
     }
 

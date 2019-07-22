@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class JDBCExecutor {
 
     public static void main(String... args) {
-        DataConnectionManager dcm = new DataConnectionManager("localhost",
+        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
                 "hplussport", "postgres", "password");
 
         try {
@@ -43,7 +43,7 @@ public class JDBCExecutor {
                     System.out.println(new CustomerDAO(connection).findById(Long.getLong(args[1])));
                     break;
                 case "order":
-                    System.out.println(new OrderDAO(connection).findById(Integer.valueOf(args[1])));
+                    System.out.println(new OrderDao(connection).findById(Integer.valueOf(args[1])));
                     break;
                 case "delete":
                     new CustomerDAO(connection).delete(Long.getLong(args[1]));
