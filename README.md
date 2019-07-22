@@ -158,7 +158,7 @@ hplussport consists of five tables
   
 
   ### Design and Implementation
-<img src="T_app2.png" alt="Twitter App">
+<img src="TwitterApp4.png" alt="Twitter App">
   This app is implemented in several layers and rolled up in packages.
   The main package layer is with class TwitterCLIApp.It contains main method
   and all dependencies are created here and user/actor input is passed to
