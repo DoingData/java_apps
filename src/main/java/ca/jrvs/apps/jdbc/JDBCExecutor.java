@@ -6,11 +6,10 @@ import java.sql.SQLException;
 public class JDBCExecutor {
 
     public static void main(String... args) {
-        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
+        DataConnectionManager dcm = new DataConnectionManager("localhost",
                 "hplussport", "postgres", "password");
 
         try {
-
             Connection connection = dcm.getConnection();
             Customer customer;
             switch (args[0]) {
@@ -43,7 +42,7 @@ public class JDBCExecutor {
                     System.out.println(new CustomerDAO(connection).findById(Long.getLong(args[1])));
                     break;
                 case "order":
-                    System.out.println(new OrderDao(connection).findById(Integer.valueOf(args[1])));
+                    System.out.println(new OrderDAO(connection).findById(Integer.valueOf(args[1])));
                     break;
                 case "delete":
                     new CustomerDAO(connection).delete(Long.getLong(args[1]));
@@ -51,11 +50,8 @@ public class JDBCExecutor {
                 default:
                     System.out.println("Usage: create|update|read|order|delete");
             }
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 }
