@@ -28,25 +28,19 @@ public class TwitterRestDao implements CrdRepository<Tweet, String> {
     private static final String EQUAL = "=";
 
     private static final int HTTP_OK = 200;
-
     private HttpHelper httpHelper;
-
     @Autowired
     public TwitterRestDao(HttpHelper httpHelper) {
         this.httpHelper = httpHelper;
     }
-
     @Override
     public Tweet create(Tweet tweet) {
-
         URI uri;
         try {
             uri = getPostUri(tweet);
-
         } catch (URISyntaxException | UnsupportedEncodingException e) {
             throw new IllegalArgumentException("Invalid tweet input", e);
         }
-
         HttpResponse response = null;
         try {
             response = httpHelper.httpPost(uri);
