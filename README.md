@@ -3,6 +3,7 @@
 This repository have three java apps in three sub packages. Which are java grep app, JDBC app and Twitter CLI app. Understanding and knowledge of previous apps is required for completion in linear order. <br/>
 - [Java Grep app](#java-grep-app)
 - [Enhancements and Issues](#enhancements-and-issues)
+- [Twitter CLI App](#twitter-cli-app)
 
 ## Java Grep app
 
